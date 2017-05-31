@@ -4,7 +4,7 @@ Prerequisite:
   npm install
 
 
-How to reproduce the error:
+How to reproduce the problem:
 
   1) npm install --save marko@4.4.6(or any other version higher than 4.3.1)
   2) webpack
@@ -14,7 +14,7 @@ How to reproduce the error:
   you should see the error.
 
 
-How to fix the error:
+How to fix the problem:
   1) npm install --save marko@4.3.1
   2) webpack
   3) cd target/markoissue702
