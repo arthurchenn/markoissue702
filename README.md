@@ -1,7 +1,7 @@
 Prerequisite:
-  download source code of markoissue702
-  cd markoissue702
-  npm install
+  1, git clone https://github.com/arthurchenn/markoissue702
+  2, cd markoissue702
+  3, npm install
 
 
 How to reproduce the problem:
