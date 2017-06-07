@@ -109,7 +109,12 @@ module.exports = [
     },
     plugins: [
       new webpack.optimize.OccurrenceOrderPlugin(),
-      new webpack.NoEmitOnErrorsPlugin()
+      new webpack.NoEmitOnErrorsPlugin(),
+      new webpack.DefinePlugin({
+        'process.env': {
+          BUNDLE: 'true'
+        }
+      })
     ]
   }
 ];
